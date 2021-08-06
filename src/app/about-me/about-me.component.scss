@@ -4,6 +4,8 @@
     color: #00e3aa;
     text-align: center;
     font-size: 30px;
+    padding-top: 80px;
+    
     
 }
 
@@ -21,25 +23,26 @@
 
 .images img{
 
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     border-radius: 100%;
     object-fit: cover;
-    
     
 }
 
 .aboutContainer{
 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    
 
 }
 
 .slogan span{
 
     font-size: 20px;
+    
 }
 
 
@@ -47,11 +50,10 @@
 
     display: flex;
     justify-content: center;
-    padding: 100px;
     color: white;
     font-family: 'Open Sans', sans-serif;
+    padding: 70px;
     
-
 }
 
 .textArea h3 {
