@@ -33,6 +33,8 @@
 }
 
 .headline {
+    display: flex;
+    flex-direction: column;
 
     color: white;
     padding: 80px;

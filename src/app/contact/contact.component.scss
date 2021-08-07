@@ -83,7 +83,9 @@
 
 .contact-clean form .btn:hover {
     opacity: 1;
-    color: white;
+    background-color:#00e3aa;
+    color: black;
+    transition: 0.1s;
 }
 
 .contact-clean form .btn:active {
@@ -91,8 +93,8 @@
 }
 
 .contact-clean form .btn-primary {
-    background-color: #00e3aa;
+    
     margin-top: 15px;
-    color: black;
+    color:#00e3aa;
     
 }
