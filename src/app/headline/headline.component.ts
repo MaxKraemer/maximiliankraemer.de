@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-headline',
   templateUrl: './headline.component.html',
@@ -7,9 +8,34 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeadlineComponent implements OnInit {
 
-  constructor() { }
+  //change headline
+  headlines = [
 
-  ngOnInit(): void {
+    'Hi, Im Max Kraemer Front End Developer',
+    'Fascinated of Coding',
+    'Coding is the language of the future and everyone should learn it'
+
+  ];
+
+  currentHeadlines =0;
+
+  ngOnInit(){
+
+    this.showImages();
+
   }
+  
+  showImages() {
 
+    setInterval(() => {
+
+      this.currentHeadlines++;
+      this.currentHeadlines = this.currentHeadlines % this.headlines.length;
+
+
+
+    },8000);
+
+
+  }
 }
