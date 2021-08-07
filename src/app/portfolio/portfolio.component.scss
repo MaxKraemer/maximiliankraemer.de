@@ -1,3 +1,4 @@
+
 .port-headline {
 
     padding-top: 100px;
@@ -8,45 +9,39 @@
 
 }
 
-.placeholder1 {
+.portfolio {
 
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
+   
 }
 
-.placeholder1 img {
+.portfolio img {
 
-    margin-left: 10px;
-    margin-right: 10px;
+    
     object-fit: cover;
 }
 
-.placeholder2 {
-    
-    padding-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.placeholder2 img {
-
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.images:hover img{
-
-    opacity: 0.6;
-    transition: 0.5s ease-in-out;
-
-}
-
-.images img{
+.portfolio img{
 
     height: 400px;
     width: 550px;
+    border-radius: 10px;
+    
+}
+
+.headline {
+
+    color: white;
+    padding: 80px;
+    
+}
+
+.headline h2 {
+
+    color: #00e3aa;
 
 }
+
