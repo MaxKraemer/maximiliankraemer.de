@@ -4,7 +4,7 @@
     color: #00e3aa;
     text-align: center;
     font-size: 30px;
-    padding-top: 80px;
+    padding-top: 40px;
     
     
 }
@@ -49,12 +49,24 @@
 .textArea {
 
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     color: white;
     font-family: 'Open Sans', sans-serif;
-    padding: 70px;
+    padding: 60px;
     
 }
+
+.text1{
+
+    margin-right: 40px;
+}
+
+.text2 {
+
+    margin-right: 40px;
+
+}
+
 
 .textArea h3 {
 

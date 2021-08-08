@@ -3,32 +3,31 @@ body {
     color:white;
 }
 
-.headline{
+.headline-container{
+    
     
     padding-top: 70px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     color: white;
     font-family: 'Open Sans', sans-serif;
+    padding-left: 80px;
+    padding-right: 80px; 
+    padding-bottom: 50px;
     
 }
 
-.headline h1{
-
-    font-size: 40px;
-}
-
-.headline img{
+.headline-container img{
     
-    height: 450px;
-    width: 450px;
+    height: 400px;
+    width: 400px;
     object-fit: cover;
     border-radius: 50%;
 }
 
 .fadeIn {
-
+    font-size: 40px;
     animation: fadeInAnimation 1.2s ease-in-out;
 }
 
