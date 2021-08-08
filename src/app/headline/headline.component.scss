@@ -18,6 +18,10 @@ body {
     
 }
 
+#inner p:nth-of-type(1) .a:nth-child(5) {
+    color: green;
+}
+
 .headline-container img{
     
     height: 400px;
@@ -26,8 +30,9 @@ body {
     border-radius: 50%;
 }
 
+
 .fadeIn {
-    font-size: 40px;
+    font-size: 60px;
     animation: fadeInAnimation 1.2s ease-in-out;
 }
 
@@ -41,3 +46,44 @@ body {
         transform:scaleY(0);
     }
 }
+
+.header-arrow {
+
+    display: flex;
+    justify-content:center;
+}
+
+.header-arrow img {
+
+    height: 40px;
+
+}
+
+
+@media (max-width: 800px){
+
+    .headline-container{
+ 
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .image img{
+
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 50%;
+
+    }
+
+    .d-none{
+
+        display: none;
+    }
+
+   
+ 
+ 
+ }

@@ -30,6 +30,8 @@
     
 }
 
+
+
 .aboutContainer{
 
     display: flex;
@@ -82,5 +84,35 @@
     padding: 0;
     font-size: 16px;
     line-height: 28px;
+    
+}
+
+
+@media (max-width: 800px){
+
+    .aboutContainer {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutContainer span{
+
+        padding: 30px;
+    }
+
+    .textArea {
+        
+       
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+    
+        
+    }
+
+
+    
     
 }

@@ -47,3 +47,21 @@
 
 }
 
+@media (max-width: 800px){
+
+    .portfolio {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .portfolio img{
+
+        height: 220px;
+        width: 350px;
+        border-radius: 10px;
+    }
+
+}
