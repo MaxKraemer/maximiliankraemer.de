@@ -18,24 +18,17 @@
    
 }
 
-.portfolio img {
-
-    
-    object-fit: cover;
-}
-
 .portfolio img{
 
-    height: 400px;
-    width: 550px;
+    width: 500px;
     border-radius: 10px;
+    object-fit: cover;
     
 }
 
 .headline {
     display: flex;
     flex-direction: column;
-
     color: white;
     padding: 80px;
     
