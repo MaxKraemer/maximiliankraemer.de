@@ -9,7 +9,7 @@
 
 }
 
-.portfolio {
+.portfolio-el {
 
     display: flex;
     justify-content: center;
@@ -18,7 +18,24 @@
    
 }
 
-.portfolio img{
+.portfolio-el img{
+
+    width: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+
+.portfolio-join {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+   
+}
+
+.portfolio-join img{
 
     width: 500px;
     border-radius: 10px;
@@ -35,6 +52,40 @@
     
 }
 
+.portfolio-liefer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+   
+}
+
+.portfolio-liefer img{
+
+    width: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+
+.portfolio-quiz {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+   
+}
+
+.portfolio-quiz img{
+
+    width: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+
 .headline h2 {
 
     color: #00e3aa;
@@ -43,24 +94,90 @@
 
 @media (max-width: 800px){
 
-    .portfolio {
+    .portfolio-el {
 
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+       
     }
-
-    .portfolio img{
-
-        height: 220px;
-        width: 350px;
+    
+    .portfolio-el img{
+    
+        width: 360px;
         border-radius: 10px;
+        object-fit: cover;
+        height: 260px;
+        
     }
+
+    .portfolio-join {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+       
+    }
+    
+    .portfolio-join img{
+    
+        width: 360px;
+        border-radius: 10px;
+        object-fit: cover;
+        height: 260px;
+        
+    }
+    
+    
+    .portfolio-liefer {
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 100px;
+        flex-direction: column;
+       
+    }
+    
+    .portfolio-liefer img{
+        width: 360px;
+        border-radius: 10px;
+        object-fit: cover;
+        height: 260px;
+        
+    }
+    
+    .portfolio-quiz {
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 100px;
+        flex-direction: column-reverse;
+       
+    }
+    
+    .portfolio-quiz img{
+    
+        width: 360px;
+        border-radius: 10px;
+        object-fit: cover;
+        height: 260px;
+        
+    }
+
+    
 
     .headline {
-
-        display: none;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        text-align: center;
+        
+        
     }
+    
 
 }

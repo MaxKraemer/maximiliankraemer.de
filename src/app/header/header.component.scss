@@ -14,11 +14,45 @@
     padding-top: 36px;
 }
 
+
 .menu {
 
     font-family: 'Open Sans', sans-serif;
     
 }
+
+.burger-menu {
+
+    position: absolute;
+    right: 15px;
+    top: 30px;
+    cursor: pointer;
+
+}
+.overlay-menu{
+
+    background-color: black;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 250px;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    border-left: 1px solid black;
+    transform: translateX(251px);
+    overflow-x: hidden;
+    transition: all 225ms ease-in-out;
+
+}
+
+.showOverlayMenu {
+
+    transform: translateX(0);
+
+}
+
 
 .menu ul li a {
     
@@ -68,4 +102,14 @@ nav ul li a:hover {
         display: none;
 
     }
+    .logo {
+
+        height: 55px;
+        width: 60px;
+        padding-bottom: 20px;
+    
+    }
+
+
 }
+    
