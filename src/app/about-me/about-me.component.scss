@@ -98,18 +98,38 @@
 
     .aboutContainer span{
 
-        padding: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+
     }
 
+    .slogan {
+
+        display: flex;
+        padding-top: 20px;
+        text-align: center;
+
+
+    }
+
+    .text1 {
+
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    .text2 {
+
+        margin-right: 0px;
+        text-align: center;
+    }
     .textArea {
         
-       
             display: flex;
             flex-direction: column;
             justify-content: center;
             text-align: center;
     
-        
     }
 
 

@@ -25,7 +25,6 @@
     color: #00e3aa;
 
 }
-
 nav ul {
     line-height: 60px;
     list-style: none;
@@ -59,4 +58,14 @@ nav ul li a:hover {
 
     text-decoration: underline;
     color: white;
+}
+
+
+@media (max-width: 800px){
+    
+    .d-none{
+
+        display: none;
+
+    }
 }
