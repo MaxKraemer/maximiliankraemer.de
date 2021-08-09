@@ -32,20 +32,37 @@ body {
 
 
 .fadeIn {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
     font-size: 50px;
-    animation: fadeInAnimation 1.2s ease-in-out;
-}
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
 
-@keyframes fadeInAnimation {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    } 
-    to {
-        opacity:1 ;
-        transform:scaleY(0);
-    }
-}
+}   
 
 .header-arrow {
 

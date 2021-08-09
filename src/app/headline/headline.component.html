@@ -1,7 +1,7 @@
 <div class="headline-container">
 
    <div class="headline">
-     <h1 class="fadeIn d-none">{{ headlines[currentHeadlines] }}</h1>
+     <h1 *ngIf="showHeadline" class="fadeIn d-none">{{ headlines[currentHeadlines] }}</h1>
     </div> 
     <div class="image">
       <img src="assets/img/max.jpg">

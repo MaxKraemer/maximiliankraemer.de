@@ -17,7 +17,9 @@ export class HeadlineComponent implements OnInit {
 
   ];
 
-  currentHeadlines =0;
+  //onload function 
+  currentHeadlines = 0;
+  showHeadline = true;
 
   ngOnInit(){
 
@@ -26,13 +28,18 @@ export class HeadlineComponent implements OnInit {
   }
   
   showImages() {
-
+    
     setInterval(() => {
 
       this.currentHeadlines++;
       this.currentHeadlines = this.currentHeadlines % this.headlines.length;
+      this.showHeadline = false;
 
+      setInterval (() => {
 
+        this.showHeadline = true;
+
+      },400);
 
     },8000);
 
