@@ -27,7 +27,7 @@
 }
 
 .portfolio-el img:hover {
-
+    
     transform: scale(1.1);
     transition: transform .8s ease-in-out;
 }
@@ -51,8 +51,8 @@
 
 .portfolio-join img:hover {
 
-    transform: scale(1.1);
-    transition: transform .8s ease-in-out;
+    transform: scale(1.15);
+    transition: transform 400ms ease-out;
 }
 
 .headline {
