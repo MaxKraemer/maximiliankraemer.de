@@ -26,6 +26,12 @@
     
 }
 
+.portfolio-el img:hover {
+
+    transform: scale(1.1);
+    transition: transform .8s ease-in-out;
+}
+
 .portfolio-join {
 
     display: flex;
@@ -41,6 +47,12 @@
     height: 270px;
     border-radius: 10px;
     
+}
+
+.portfolio-join img:hover {
+
+    transform: scale(1.1);
+    transition: transform .8s ease-in-out;
 }
 
 .headline {
@@ -69,6 +81,12 @@
     
 }
 
+.portfolio-liefer img:hover {
+
+    transform: scale(1.1);
+    transition: transform .8s ease-in-out;
+}
+
 .portfolio-quiz {
 
     display: flex;
@@ -85,6 +103,12 @@
     border-radius: 10px;
     
     
+}
+
+.portfolio-quiz img:hover {
+
+    transform: scale(1.1);
+    transition: transform .8s ease-in-out;
 }
 
 .headline h2 {
