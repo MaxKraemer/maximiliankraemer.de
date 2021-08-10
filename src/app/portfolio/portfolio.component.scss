@@ -9,106 +9,119 @@
 
 }
 
-.portfolio-el {
+.portfolio-container {
 
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-bottom: 100px;
+    cursor: pointer;
+
+
+}
+.images1 img{
+
+    height: 250px;
+    padding-right: 10px;
+    object-fit: cover;
+    
+    
+
+}
+
+.images2 img{
+
+    height: 250px;
+    margin-left: 30px;
+    
+}
+
+.images3 img{
+
+    height: 250px;
+}
+
+
+.images4 img{
+
+    height: 250px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.portfolio-el {
+
+   position: relative;
+   width: 500px;
    
 }
 
 .portfolio-el img{
 
-    width: 450px;
-    height: 270px;
-    border-radius: 10px;
-    
-}
-
-.portfolio-el img:hover {
-    
-    transform: scale(1.1);
-    transition: transform .8s ease-in-out;
-}
-
-.portfolio-join {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 100px;
+   display: block;
+   width: 100%;
+   padding-top: 15px;
+   padding-bottom: 15px;
    
 }
 
-.portfolio-join img{
-
-    width: 450px;
-    height: 270px;
-    border-radius: 10px;
+.image-title {
     
+    font-size: 2em;
+    font-weight: bold;
+
 }
 
-.portfolio-join img:hover {
+.dicription {
 
-    transform: scale(1.15);
-    transition: transform 400ms ease-out;
+    font-size: 1.25em;
+    margin-top: 0.25em;
+
 }
 
-.headline {
+.headline-overlay {
+
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 530px;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    color: #00e3aa;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    
+
+}
+
+.headline-overlay span {
+
     color: white;
-    padding: 80px;
-    
-    
+
 }
 
-.portfolio-liefer {
+.headline-overlay--blur {
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 100px;
-   
+    backdrop-filter: blur(5px);
 }
 
-.portfolio-liefer img{
+.headline-overlay:hover {
 
-    width: 450px;
-    height: 270px;
-    border-radius: 10px;
-    
+    opacity: 1;
 }
 
-.portfolio-liefer img:hover {
+.headline-overlay > * {
 
-    transform: scale(1.1);
-    transition: transform .8s ease-in-out;
+    transform:translateY(20px);
+    transition: transform 0.25s;
 }
 
-.portfolio-quiz {
+.headline-overlay:hover > * {
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 100px;
-   
-}
+    transform:translateY(0);
 
-.portfolio-quiz img{
-
-    width: 450px;
-    height: 270px;
-    border-radius: 10px;
-    
-    
-}
-
-.portfolio-quiz img:hover {
-
-    transform: scale(1.1);
-    transition: transform .8s ease-in-out;
 }
 
 .headline h2 {
@@ -119,80 +132,11 @@
 
 @media (max-width: 800px){
 
-    .portfolio-el {
+    .portfolio-container{
 
         display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
-       
     }
-    
-    .portfolio-el img{
-    
-        width: 360px;
-        border-radius: 10px;
-        object-fit: cover;
-        height: 260px;
-        
-    }
-
-    .portfolio-join {
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column-reverse;
-       
-    }
-    
-    .portfolio-join img{
-    
-        width: 360px;
-        border-radius: 10px;
-        object-fit: cover;
-        height: 260px;
-        
-    }
-    
-    
-    .portfolio-liefer {
-    
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 100px;
-        flex-direction: column;
-       
-    }
-    
-    .portfolio-liefer img{
-        width: 360px;
-        border-radius: 10px;
-        object-fit: cover;
-        height: 260px;
-        
-    }
-    
-    .portfolio-quiz {
-    
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 100px;
-        flex-direction: column-reverse;
-       
-    }
-    
-    .portfolio-quiz img{
-    
-        width: 360px;
-        border-radius: 10px;
-        object-fit: cover;
-        height: 260px;
-        
-    }
-
     
 
     .headline {
@@ -201,8 +145,41 @@
         color: white;
         text-align: center;
         
+    }
+
+    .images1 {
+
+        width: 350px;
+    }
+
+    .images2 {
+
+        width: 350px;
+    }
+    .images3 {
+
+        width: 350px;
+    }
+    .images4 {
+
+        width: 350px;
+    }
+
+    .d-none {
+
+        display: none;
+    }
+
+    .portfolio-el{
+
+        display: block;
+        width: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 10px;
         
     }
+
     
 
 }
