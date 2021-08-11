@@ -12,6 +12,8 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { LandingComponent } from './landing/landing.component';
+import { DataProtectionComponent } from './data-protection/data-protection.component';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { LandingComponent } from './landing/landing.component';
     FooterComponent,
     AboutMeComponent,
     ImprintComponent,
-    LandingComponent
+    LandingComponent,
+    DataProtectionComponent,
+  
   ],
   imports: [
     BrowserModule,
