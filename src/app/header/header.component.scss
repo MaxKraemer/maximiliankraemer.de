@@ -94,14 +94,18 @@ nav ul li a:hover {
     color: white;
 }
 
+.hide-menu {
+    display: none !important;
+}
 
 @media (max-width: 800px){
     
-    .d-none{
-
-        display: none;
-
+    .hide-mobile {
+        
+        display: none
     }
+
+
     .logo {
 
         height: 55px;

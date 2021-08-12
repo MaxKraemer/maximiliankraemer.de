@@ -130,12 +130,23 @@
 
 }
 
+
 @media (max-width: 800px){
 
     .portfolio-container{
 
         display: flex;
         flex-direction: column;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .logo img {
+
+        height: 55px;
+        width: 60px;
+        padding-left: 50px;
+        padding-top: 36px;
     }
     
 
@@ -149,22 +160,25 @@
 
     .images1 {
 
-        width: 350px;
+        width: 100%;
     }
 
-    .images2 {
+    .images2 img{
 
-        width: 350px;
+        width: 100%;
+        margin-left: 0px;
     }
     .images3 {
 
-        width: 350px;
+        width: 100%;
     }
-    .images4 {
+    .images4 img{
 
-        width: 350px;
+        width: 100%;
+        margin-left: 0px;
+
     }
-
+    
     .d-none {
 
         display: none;
