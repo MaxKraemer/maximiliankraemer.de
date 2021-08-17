@@ -76,6 +76,11 @@ body {
 
 }
 
+.d-none {
+
+    display: none;
+}
+
 
 @media (max-width: 800px){
 
@@ -95,7 +100,20 @@ body {
 
     }
 
-    .d-none{
+    .headline-mobile {
+
+        display: contents;
+        text-align: center;
+    
+    }
+
+    .headline-mobile h1{
+
+        padding-bottom: 30px;
+
+    }
+
+    .hide-headline {
 
         display: none;
     }
