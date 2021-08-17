@@ -8,7 +8,18 @@
           <a href=""><img src="assets/img/logo.png"></a>
        </div>
        
-       <div class="menu hide-mobile">
+       <div (click)="showMenu()" class="mobile-menu hide-menu"><img src="assets/img/activity-feed-64.png"></div>
+       <div id="menu" class="overlay-menu">
+         <div (click)="closeMenu()" class="close">X</div>
+         <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#aboutme">ABOUT ME</a></li>
+       
+         </ul>
+
+       </div>
+       <div class="menu">
           <ul>
              <li><a href="#">HOME</a></li>
              <li><a href="#portfolio">PORTFOLIO</a></li>

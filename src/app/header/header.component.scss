@@ -1,3 +1,8 @@
+body {
+
+    overflow-x: hidden;
+}
+
 .header-container {
 
     display: flex;
@@ -95,23 +100,87 @@ nav ul li a:hover {
 }
 
 .hide-menu {
-    display: none !important;
+
+    display: none;
 }
 
+
+
 @media (max-width: 800px){
-    
-    .hide-mobile {
+
+    body {
+
+        overflow-x: hidden;
+
         
-        display: none
+    }
+    
+    .hide-mobile{
+
+        position: absolute;
+        right: 16px;
+        width: 50px;
+        top: 16px;
+
     }
 
+    .menu {
 
-    .logo {
+        display: none;
+
+    }
+
+    .logo img {
 
         height: 55px;
         width: 60px;
-        padding-bottom: 20px;
+        
+    }
+
+    .mobile-menu {
+
+        position: absolute;
+        right: 16px;
+        width: 50px;
+        top: 37px;
+        display: block;
     
+    }
+    
+    .mobile-menu img{
+    
+        height: 45px;
+
+    }
+
+    .overlay-menu {
+
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        height: 300px;
+        background-color: #00e3aa;
+        border: 1px solid #00e3aa;
+        transform: translateX(300px);
+        transition: all 225ms ease-in-out;
+        
+
+    }
+
+    .overlay-menu ul{
+
+        display: contents;
+        
+    }
+
+    .showOverlay-menu {
+
+        transform: translateX(0);
+
     }
 
 
