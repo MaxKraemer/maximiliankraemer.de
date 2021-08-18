@@ -19,7 +19,6 @@
 .images1 img{
 
     height: 250px;
-    padding-right: 10px;
     object-fit: cover;
     
 }
@@ -27,7 +26,6 @@
 .images2 img{
 
     height: 250px;
-    margin-left: 30px;
     
 }
 
@@ -40,8 +38,7 @@
 .images4 img{
 
     height: 250px;
-    margin-left: 30px;
-    margin-right: 30px;
+
 }
 
 .portfolio-el {
@@ -162,26 +159,24 @@
     }
 
     .images1 {
-
-        width: 95%;
+        display: flex;
+        justify-content: center;
+       
         padding-top: 50px;
     }
 
     .images2 img{
 
-        width: 95%;
-        margin-left: 0px;
+        
         padding-top: 50px;
     }
     .images3 {
 
-        width: 95%;
+        
         padding-top: 50px;
     }
     .images4 img{
 
-        width: 95%;
-        margin-left: 0px;
         padding-top: 50px;
 
     }
