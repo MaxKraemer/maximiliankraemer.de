@@ -7,17 +7,18 @@
        
           <a href=""><img src="assets/img/logo.png"></a>
        </div>
-       
-       <div (click)="showMenu()" class="mobile-menu hide-menu"><img src="assets/img/6593477_menu-png-white-menu-icon-svg-png-download-removebg-preview.png"></div>
-       <div id="menu" class="overlay-menu hide-mobile">
-         <div (click)="closeMenu()" class="hide-menu">X</div>
-       <!-- <ul>
+       <div (click)="showMenu()" class="menu-bar d-none">
+          <img src="assets/img/6593477_menu-png-white-menu-icon-svg-png-download-removebg-preview.png">
+       </div>
+       <div id="menu" class="overlay-menu d-none" >
+          <div (click)="closeMenu()" class="close-menu"><button class="btn">close</button></div>
+         <ul>
             <li><a href="#">HOME</a></li>
             <li><a href="#portfolio">PORTFOLIO</a></li>
             <li><a href="#aboutme">ABOUT ME</a></li>
        
          </ul>
-         --> 
+
        </div>
        <div class="menu">
           <ul>

@@ -11,8 +11,9 @@
 
     height: 55px;
     width: 60px;
-    padding-left: 72px;
-    padding-top: 36px;
+    padding-left: 70px;
+    padding-top: 35px;
+    
 }
 
 
@@ -79,7 +80,7 @@ nav ul li a:hover {
     color: white;
 }
 
-.hide-menu {
+.d-none {
 
     display: none;
 }
@@ -87,14 +88,6 @@ nav ul li a:hover {
 
 
 @media (max-width: 800px){
-
-    body {
-
-        overflow-x: hidden;
-
-    }
-
-    
     
     .hide-mobile{
 
@@ -115,26 +108,11 @@ nav ul li a:hover {
 
         height: 55px;
         width: 60px;
+        padding-top: 10px;
+        padding-left: 15px;
         
     }
-
-    .mobile-menu {
-
-        position: absolute;
-        right: 16px;
-        width: 50px;
-        top: 37px;
-        display: block;
     
-    }
-    
-    .mobile-menu img{
-    
-        height: 50px;
-        width: 50px;
-    }
-
-   
 
     .overlay-menu ul{
 
@@ -147,6 +125,59 @@ nav ul li a:hover {
         position: absolute;
 
     }
+
+    .overlay-menu {
+        
+        position: absolute;
+        height: 300px;
+        width: 200px;
+        background-color:#00e3aa;
+        top: 0;
+        right: 0;
+        
+    }
+
+    .d-none {
+
+        display: none;
+    }
+
+    .header-container {
+
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        
+    }
+
+    .menu-bar {
+
+        display: contents;
+              
+    }
+
+    .menu-bar img {
+
+        height: 70px;
+        
+    }
+
+    .close-menu {
+
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .btn {
+
+        border: none;
+        color: white;
+        background-color:#00e3aa;
+    
+
+    }
+
+   
 
 
 }

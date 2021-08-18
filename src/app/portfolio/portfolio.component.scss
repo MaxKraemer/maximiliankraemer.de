@@ -131,6 +131,11 @@
 
 @media (max-width: 800px){
 
+    body {
+
+        margin: 0px;
+    }
+
     .portfolio-container{
 
         display: flex;
@@ -158,22 +163,26 @@
 
     .images1 {
 
-        width: 100%;
+        width: 95%;
+        padding-top: 50px;
     }
 
     .images2 img{
 
-        width: 100%;
+        width: 95%;
         margin-left: 0px;
+        padding-top: 50px;
     }
     .images3 {
 
-        width: 100%;
+        width: 95%;
+        padding-top: 50px;
     }
     .images4 img{
 
-        width: 100%;
+        width: 95%;
         margin-left: 0px;
+        padding-top: 50px;
 
     }
     
@@ -184,20 +193,31 @@
 
     .portfolio-el{
 
-        display: block;
         width: 100%;
         padding-top: 15px;
         padding-bottom: 15px;
         padding-left: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
         
     }
 
+    .port-headline {
+        padding-top: 98px;
+        color: #00e3aa;
+        text-align: center;
+        font-size: 30px;
+
+    }
+   
+
     .headline-overlay {
 
-        position: absolute;
+        
         top:0;
         left: 0;
-        width: 530px;
+        width: 100%;
         height: 100%;
         background: rgba(0,0,0,0.6);
         color: #00e3aa;
@@ -206,9 +226,12 @@
         align-items: center;
         justify-content: center;
         z-index: 2;
+        display: contents;
+        text-align: center;
         
     }
 
     
 
 }
+

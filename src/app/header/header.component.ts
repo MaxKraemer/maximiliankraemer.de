@@ -15,14 +15,15 @@ export class HeaderComponent implements OnInit {
 
   showMenu(){
 
-      document.getElementById('menu')?.classList.add('showOverlay-menu');
+      document.getElementById('menu')?.classList.remove('d-none');
     
   }
 
   closeMenu(){
 
-      document.getElementById('menu')?.classList.remove('showOverlay-menu');
-
+      document.getElementById('menu')?.classList.add('d-none');
   }
+
+  
 
 }

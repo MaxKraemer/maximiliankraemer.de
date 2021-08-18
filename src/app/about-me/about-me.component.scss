@@ -96,13 +96,6 @@
         flex-direction: column;
     }
 
-    .aboutContainer span{
-
-        padding-left: 40px;
-        padding-right: 40px;
-
-    }
-
     .slogan {
 
         display: flex;
@@ -110,6 +103,11 @@
         text-align: center;
 
 
+    }
+
+    .slogan span {
+
+        padding: 20px;
     }
 
     .text1 {
