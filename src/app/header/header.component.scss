@@ -30,21 +30,7 @@
     cursor: pointer;
 
 }
-.overlay-menu{
 
-    background-color: black;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    height: 250px;
-    width: 250px;
-    right: 0;
-    top: 0;
-    z-index: 2;
-    border-left: 1px solid black;
-    
-
-}
 
 .showOverlayMenu {
 
@@ -144,24 +130,11 @@ nav ul li a:hover {
     
     .mobile-menu img{
     
-        height: 45px;
-
+        height: 50px;
+        width: 50px;
     }
 
-    .overlay-menu {
-
-        position: absolute;
-        right: 0;
-        top: 0;
-        z-index: 1;
-        display: flex;
-        flex-direction: column;
-        width: 200px;
-        height: 300px;
-        background-color: #00e3aa;
-        border: 1px solid #00e3aa;
-        
-    }
+   
 
     .overlay-menu ul{
 
