@@ -13,7 +13,7 @@ export class HeadlineComponent implements OnInit {
 
     'Hi, Im Max Kraemer Front End Developer',
     'Fascinated of Coding',
-    'Coding is the language of the future and everyone should learn it'
+    'Coding is the language of the future'
 
   ];
 
