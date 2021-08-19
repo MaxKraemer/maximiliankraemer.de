@@ -5,8 +5,10 @@
       <img src="assets/img/logo.png">
 
    </div>
-
-   <div class="header-link">
+   <div (click)="showMenu()" class="menu-bar d-none">
+      <img src="assets/img/6593477_menu-png-white-menu-icon-svg-png-download-removebg-preview.png">
+   </div>
+   <div class="header-link menu">
       <a href="">Home</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#aboutme">About Me</a>
@@ -22,9 +24,7 @@
 
 
 
- <!--<div (click)="showMenu()" class="menu-bar d-none">
-          <img src="assets/img/6593477_menu-png-white-menu-icon-svg-png-download-removebg-preview.png">
-       </div>
+ <!--
        <div id="menu" class="overlay-menu d-none" >
           <div (click)="closeMenu()" class="close-menu"><button class="btn">close</button></div>
          <ul>

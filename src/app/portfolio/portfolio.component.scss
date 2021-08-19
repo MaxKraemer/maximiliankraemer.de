@@ -15,36 +15,16 @@
     justify-content: center;
     cursor: pointer;
     
-}
-.images1 img{
-
-    height: 250px;
-    object-fit: cover;
     
 }
 
-.images2 img{
-
-    height: 250px;
-    
-}
-
-.images3 img{
-
-    height: 250px;
-}
-
-
-.images4 img{
-
-    height: 250px;
-
-}
 
 .portfolio-el {
 
    position: relative;
    width: 500px;
+   margin-left: 15px;
+   margin-right: 15px;
    
 }
 
@@ -54,6 +34,7 @@
    width: 100%;
    padding-top: 15px;
    padding-bottom: 15px;
+   
    
 }
 
@@ -86,6 +67,8 @@
     justify-content: center;
     opacity: 0;
     transition: opacity 0.25s;
+    padding-top: -15px;
+    padding-bottom: -15px;
     
     
 
@@ -191,7 +174,7 @@
         width: 100%;
         padding-top: 15px;
         padding-bottom: 15px;
-        padding-left: 10px;
+        
         display: flex;
         justify-content: center;
         flex-direction: column-reverse;
