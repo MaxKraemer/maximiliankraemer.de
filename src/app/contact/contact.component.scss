@@ -96,6 +96,7 @@
     
     margin-top: 15px;
     color:#00e3aa;
+    cursor: pointer;
     
 }
 
@@ -115,6 +116,11 @@
     .contact-clean form input {
 
         width: 265px;
+    }
+
+    .contact-clean form .btn-primary {
+
+        width: 100%
     }
 
 };
