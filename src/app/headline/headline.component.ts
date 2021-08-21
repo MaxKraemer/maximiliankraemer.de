@@ -45,4 +45,20 @@ export class HeadlineComponent implements OnInit {
 
 
   }
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

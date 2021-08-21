@@ -2,6 +2,7 @@
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-top: 170px;
     padding-left: 150px;
     padding-right: 150px;
@@ -32,8 +33,6 @@
     border-radius: .5rem; 
     text-decoration: none;
     
-
-    
 }
 
 .button:hover {
@@ -52,4 +51,43 @@
     border-radius: 50%;
 
 }
+
+.fadeIn {
+    
+    margin-right: 40px;
+    
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    font-size: 56px;
+    color: white;
+  
+}
+ 
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+
+}  
 

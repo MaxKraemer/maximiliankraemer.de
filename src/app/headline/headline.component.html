@@ -1,15 +1,24 @@
    <!--===== HOME =====-->
-   <section class="headline-container" id="home">
-    <div class="headline-title-container">
-        <h1 class="headline-title">Hi,<br><span>I'am<span style="color: #00e3aa;"> Max Kraemer</span></span><br> Front-End Developer</h1>
+   
+<section class="headline-container" id="home">
+    
+        <div class="headline-title-container">
+        
+            <h1 id="headline" *ngIf="showHeadline" class="fadeIn">{{ headlines[currentHeadlines] }}</h1>
+  
+        </div>
 
-</div>
-    <div class="headline-image">    
-        <img src="assets/img/max.jpg" alt="">
-    </div>
+        <div id="image" class="headline-image">    
+        
+            <img src="assets/img/max.jpg">
+    
+        </div>
+
+        
+
 </section>
 
 <div class="headline-contact">
-<a href="#" class="button">Contact</a>
-
-</div>
+    <a href="#" class="button">Contact</a>
+    
+    </div>
