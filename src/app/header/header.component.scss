@@ -1,14 +1,16 @@
 header{
     
-    position: absolute;
+    width: 100%;
+    position: fixed;
+    top: 0;
     left: 0;
-    right: 0;
-    height: 80px;
-    z-index: 1;
-    
-    font-size: 15px;
-   
+    z-index: var(--z-fixed);
+    background-color: rgb(37, 37, 37);
+    box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
 }
+
+
+   
 
 .header-social img{
 
@@ -21,9 +23,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    
 }
 
 
@@ -42,15 +44,15 @@ header{
 
 .header-container a{
 
-    color: #00e3aa;
-    margin-left: 30px;
+    color: white;
+    margin-left: 50px;
     text-decoration: none;
     
 }
 
 .header-container a:hover{
 
-    color: white;
+    color: #00e3aa;
     text-decoration: underline;
 
 }
