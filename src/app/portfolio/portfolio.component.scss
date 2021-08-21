@@ -1,0 +1,51 @@
+.port-container {
+
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.port-section {
+
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+
+.port-section h2 {
+
+    text-align: center;
+    color: #00e3aa;
+    font-size: 45px;
+}
+
+.port-img img {
+
+   
+    height: 250px;
+    object-fit: cover;
+    border-radius: .5rem;
+    overflow: hidden;
+    margin-top: 20px;
+    width: 355px;
+    
+    cursor: pointer;
+    
+
+}
+
+.port-img img:hover {
+
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+
+}
+
+.port-container2 {
+
+    display: flex;
+    justify-content: space-between;
+    
+}

@@ -4,13 +4,10 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    z-index: var(--z-fixed);
+    z-index: 1;
     background-color: rgb(37, 37, 37);
     box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
 }
-
-
-   
 
 .header-social img{
 
@@ -27,7 +24,6 @@ header{
     padding-right: 150px;
     
 }
-
 
 .header-link{
 
@@ -61,7 +57,8 @@ header{
 
     height: 60px;
     width: 65px;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
     cursor: pointer;
     
 }
@@ -88,7 +85,6 @@ header{
 
 }
 
-
 .menu ul li a {
     
     color: #00e3aa;
@@ -110,110 +106,7 @@ nav ul li a:hover {
 
 @media (max-width: 800px){
 
-    .header {
-
-        header {
-            position: absolute;
-            right: 0;
-            height: 80px;
-            z-index: 1;
-            padding-left: 100px;
-            padding-right: 100px;
-            font-size: 15px;
-        }
-    }
-    
-    .hide-mobile{
-
-        position: absolute;
-        right: 16px;
-        width: 50px;
-        top: 16px;
-
-    }
-
-    .menu {
-
-        display: none;
-
-    }
-
-    .logo img {
-
-        height: 55px;
-        width: 60px;
-        padding-top: 10px;
-        padding-left: 15px;
-        
-    }
-    
-    .overlay-menu ul{
-
-        display: contents;
-        
-    }
-
-    .showOverlay-menu {
-
-        position: absolute;
-
-    }
-
-    .overlay-menu {
-        
-        position: absolute;
-        height: 300px;
-        width: 200px;
-        background-color:#00e3aa;
-        top: 0;
-        right: 0;
-       
-        
-    }
-
-    .d-none {
-
-        display: none;
-    }
-
-    .header-container {
-
-        display: flex;
-        justify-content: space-between;
-        padding: 20px;
-        
-    }
-
-    .menu-bar {
-
-        display: contents;
-              
-    }
-
-    .menu-bar img {
-
-        height: 70px;
-        
-    }
-
-    .close-menu {
-
-        display: flex;
-        justify-content: flex-end;
-    
-    }
-
-    .btn {
-
-        border: none;
-        color: white;
-        background-color:#00e3aa;
-        padding-right: 10px;
-        padding-top: 10px;
-    
-
-    }
-
+   
    
 
 

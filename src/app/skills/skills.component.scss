@@ -1,7 +1,22 @@
+.skillscontainer {
+    display: flex;
+    justify-content: center;
+    
+}
+
 .skills-section {
 
     color: white;
+    padding-top: 50px;
     
+    
+}
+
+.skills-section h2 {
+
+    text-align: center;
+    font-size: 45px;
+    color: #00e3aa;
 }
 
 .skill-image img{
@@ -14,12 +29,14 @@
 
         display: flex;
         justify-content: space-between;
-        width: 50%;
+        height: 80px;
+        width: 30em;
         align-items: center;
         position: relative;
         padding: .5rem 1rem;
         border-radius: .5rem;
         box-shadow: 0px 4px 10px #00e3aa;
+        margin: 20px;
 
 }
 
