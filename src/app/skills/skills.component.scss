@@ -84,3 +84,21 @@
 
 
 }
+
+@media (max-width: 800px) {
+    
+    .skills-section {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .skills-data {
+
+        width: 20em;
+
+
+    }
+}

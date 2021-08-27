@@ -2,7 +2,6 @@
 
     padding-left: 150px;
     padding-right: 150px;
-    
 
 }
 
@@ -14,8 +13,6 @@
     font-size: 30px;
     padding-top: 40px;
    
-    
-    
 }
 
 .aboutContainer span {
@@ -39,15 +36,12 @@
     
 }
 
-
-
 .aboutContainer{
 
     display: flex;
     justify-content: center;
     align-items: center;
     
-
 }
 
 .slogan span{
@@ -78,7 +72,6 @@
 
 }
 
-
 .textArea h3 {
 
     text-align: center;
@@ -99,47 +92,28 @@
 
 @media (max-width: 800px){
 
-    .aboutContainer {
+    .about {
 
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
     }
 
-    .slogan {
+    .aboutContainer{
 
         display: flex;
-        padding-top: 20px;
-        text-align: center;
-
-
-    }
-
-    .slogan span {
-
-        padding: 20px;
-    }
-
-    .text1 {
-
-        margin-right: 0px;
-        text-align: center;
-    }
-
-    .text2 {
-
-        margin-right: 0px;
-        text-align: center;
-    }
-    .textArea {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            text-align: center;
-    
     }
 
+    .textArea {
 
-    
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
     
 }

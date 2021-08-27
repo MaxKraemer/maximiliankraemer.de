@@ -1,7 +1,7 @@
 .port-container {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
     
 }
@@ -46,6 +46,34 @@
 .port-container2 {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;   
+}
+
+@media (max-width: 800px) {
+
+    .port-container {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .port-container2 {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .port-section {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
     
 }

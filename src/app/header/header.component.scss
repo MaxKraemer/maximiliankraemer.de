@@ -106,7 +106,20 @@ nav ul li a:hover {
 
 @media (max-width: 800px){
 
+   .header-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0;
+
+   }
+
+   .hide-mobile {
+
+    display: none;
    
+    }
    
 
 
