@@ -111,7 +111,9 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    
 
    }
 
@@ -119,6 +121,65 @@ nav ul li a:hover {
 
     display: none;
    
+    }
+
+    .menu-responsive {
+        display: contents;
+
+        img {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding-top: 17px;
+            padding-right: 35px;
+            width: 45px;
+        }
+    }
+
+    .overlay-menu {
+
+        height: 220px;
+        width: 200px;
+        background-color: #00e3aa;
+        border-radius: 5px;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+    }
+
+    .nav-list {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 50px;
+
+        a {
+
+            font-size: 25px;
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 20px;
+        }
+    }
+
+    button {
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        
+    }
+    .btn{
+        
+        background-color: #00e3aa;
+        border: none;
+        color: white;
+        font-size: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+
     }
    
 

@@ -4,7 +4,23 @@
       <div class="header-logo">
       <a href="/"><img src="assets/img/logo.png"></a>
 
+
    </div>
+   <div (click)="showMenu()"  class="menu-responsive d-none">
+      <img src="assets/img/activity-feed-64.png">
+   </div>
+   <div id="menu" class="overlay-menu d-none">
+      <div (click)="closeMenu()" class="close-menu"><button class="btn">X</button></div>
+     <div class="nav-list">
+        <a href="#">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#aboutme">About Me</a>
+        <a href="#contact"><b>Contact</b></a>
+      </div>
+   
+
+   </div>
+
    <div (click)="showMenu()" class="menu-bar d-none">
       <img src="assets/img/6593477_menu-png-white-menu-icon-svg-png-download-removebg-preview.png">
    </div>
