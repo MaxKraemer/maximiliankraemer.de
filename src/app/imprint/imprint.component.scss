@@ -4,8 +4,8 @@
     width: 100vw;
     color: white;
     padding-left: 80px;
-    padding-top: 35px;
-    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 170px;
 }
 
 @media (max-width: 800px) {
@@ -13,5 +13,7 @@
     .imprint {
         height: 100%;
         width: 60%;
+        padding-top: 100px;
+        padding-left: 35px;
     }
 }
