@@ -25,12 +25,22 @@
     width: 25px;
 }
 
+.skills-name {
+
+    text-align: center;
+}
+
+.skills-names1{
+
+    display: flex;
+    justify-content: space-between;
+}
+
 .skills-data {
 
         display: flex;
-        justify-content: space-between;
         height: 80px;
-        width: 30em;
+        width: 18em;
         align-items: center;
         position: relative;
         padding: .5rem 1rem;
@@ -47,7 +57,7 @@
     background-color: #00e3aa;
     height: .25rem;
     border-radius: .5rem;
-    width: 85%;
+    width: 100%;
 }
 
 .skills-css{
@@ -58,7 +68,7 @@
     background-color: #00e3aa;
     height: .25rem;
     border-radius: .5rem;
-    width: 80%;
+    width: 100%;
     
 }
 
@@ -69,7 +79,7 @@
     background-color: #00e3aa;
     height: .25rem;
     border-radius: .5rem;
-    width: 50%;
+    width: 100%;
 
 }
 
@@ -80,7 +90,7 @@
     background-color: #00e3aa;
     height: .25rem;
     border-radius: .5rem;
-    width: 60%;
+    width: 100%;
 
 
 }
@@ -100,5 +110,11 @@
         width: 20em;
 
 
+    }
+
+    .skillscontainer {
+
+        display: flex;
+        flex-direction: column;
     }
 }

@@ -41,7 +41,7 @@ export class HeadlineComponent implements OnInit {
 
       },400);
 
-    },8000);
+    },6000);
 
 
   }
