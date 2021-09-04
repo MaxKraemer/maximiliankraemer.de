@@ -125,6 +125,7 @@ nav ul li a:hover {
 
     .menu-responsive {
         display: contents;
+        cursor: pointer;
 
         img {
             position: absolute;
@@ -179,7 +180,13 @@ nav ul li a:hover {
         font-size: 20px;
         padding-right: 20px;
         padding-top: 10px;
+        cursor: pointer;
 
+    }
+    .header-container a:hover {
+
+        color: white;
+        text-decoration: underline;
     }
    
 

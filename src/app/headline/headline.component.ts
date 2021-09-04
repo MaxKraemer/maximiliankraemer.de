@@ -11,7 +11,7 @@ export class HeadlineComponent implements OnInit {
   //change headline
   headlines = [
 
-    'Hi, Im Max Kraemer Front End Developer',
+    'Hi, Im Max Kraemer Junior Front End Developer',
     'Fascinated of Coding',
     'Coding is the language of the future'
 
