@@ -49,6 +49,13 @@
      
 }
 
+.port-container3 {
+
+    display: flex;
+    justify-content: center;
+     
+}
+
 .mg-32 {
 
     margin-right: 32px;
@@ -65,6 +72,14 @@
     }
 
     .port-container2 {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .port-container3{
 
         display: flex;
         justify-content: center;
